@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment directories
+env/
+venv/
+.myenv/
+myenv/
+
+# Flask environment variables and instance folder
+instance/
+*.env
+*.flaskenv
+
+# macOS system files
+.DS_Store
+
+# VS Code workspace and settings
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+
+# Logs and debug files
+*.log
+*.pot
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Database files
+*.sqlite3
+*.db
+
+# Static files
+/staticfiles/
+staticfiles/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# PyCharm project files
+.idea/
+
+# Build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Pipenv files
+Pipfile.lock
+
+# PyInstaller files
+*.spec
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.orig
+*.~lock.*
+Thumbs.db
